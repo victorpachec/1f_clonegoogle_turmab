@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#fff;
+    font-family: "Roboto", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+  font-size: 50px;
+  
+  width: 100w;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  background-color: blue;
+  height: 60px;
+}
+
+main{
+ background-color: darkcyan;
+ flex-grow: 1;
+}
+
+footer{
+ background-color: aqua;
+ height: 60px;
+}
