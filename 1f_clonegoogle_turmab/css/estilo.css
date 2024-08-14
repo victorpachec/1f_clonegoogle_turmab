@@ -1,33 +1,89 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 body{
-    background-color:#fff;
-    font-family: "Roboto", sans-serif;
-  font-weight: 250;
-  font-style: normal;
-  font-size: 50px;
+    background-color:hsl(160, 33%, 98%);
+  font-size: 30px;
   
-  width: 100w;
+  width: 100vw;
   height: 100vh;
 
   display: flex;
   flex-direction: column;
 }
 
-header{
-  background-color: blue;
+.header{
+  background-color: rgb(255, 255, 255);
   height: 60px;
+  font-size: 16px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
 }
 
-main{
- background-color: darkcyan;
+.link {
+  text-decoration: none;
+  padding-left: 10px;
+ background-color: #1f1f1f00;
+ font-family: 400;
+ font-size: 14px;
+
+}
+
+.btn{
+  background: #0b57d0;
+  padding: 8px 15px 8px 15px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+
+}
+
+.btn :hover{
+  background: blue;
+
+
+}
+
+
+
+.main{
+ background-color: rgba(255, 255, 255, 0);
  flex-grow: 1;
+
+ display: flex;
+ flex-direction: column;
+ justify-content:center;
+ align-items: center;
 }
 
 footer{
- background-color: aqua;
+ background-color: rgb(255, 255, 255);
  height: 60px;
+ border-bottom: 1px solid floralwhite;
+ font-size: 16px;
+ padding-left: 18px;
+
+ display: flex;
+ align-items: center;
+}
+
+ion-icon{
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 20px;
+  transition: .3s;
+}
+
+ion-icon :hover{
+  background: white;
+  border-radius: 20px;
+
+
+
 }
